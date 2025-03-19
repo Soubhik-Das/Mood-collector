@@ -241,12 +241,13 @@ h3 {
     font-size: 2.5rem;
 }
 
-.calendar-section {
-    margin-top: 20px;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+.mood-calendar {
+    width: 100%;
+    max-width: 450px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 0 10px #0000004d;
 }
 
 .calendar-section p {
@@ -255,10 +256,8 @@ h3 {
 }
 
 .mood-calendar {
-    width: 420px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    width: 100%;
+    max-width: 450px;
     padding: 15px;
     background: #fff;
     border-radius: 12px;
@@ -357,5 +356,20 @@ h3 {
 
     .emoji {
         font-size: 2.5rem;
+    }
+}
+@media (max-width: 600px) {
+    .mood-calendar {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .day {
+        font-size: 0.9rem;
+    }
+
+    .date {
+        font-size: 0.9rem;
+        padding: 8px;
     }
 }
