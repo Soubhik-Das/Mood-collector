@@ -361,15 +361,15 @@ h3 {
 @media (max-width: 600px) {
     .mood-calendar {
         max-width: 100%;
-        padding: 10px;
+        padding: 8px;
     }
 
     .day {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
     }
 
     .date {
-        font-size: 0.9rem;
-        padding: 8px;
+        font-size: 0.7rem;
+        padding: 6px;
     }
 }
