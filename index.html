@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mood collector</h1>
+            <button id="toggle-theme" class="toggle-theme">🌙 Dark Mode</button>
+        </header>
+
+        <section class="mood-selection">
+            <h2>Select Your Mood</h2>
+            <div class="mood-cards">
+                <div class="mood-card" data-mood="happy">
+                    <span class="emoji">😊</span>
+                    <h3>Happy</h3>
+                </div>
+                <div class="mood-card" data-mood="sad">
+                    <span class="emoji">😢</span>
+                    <h3>Sad</h3>
+                </div>
+                <div class="mood-card" data-mood="neutral">
+                    <span class="emoji">😐</span>
+                    <h3>Neutral</h3>
+                </div>
+                <div class="mood-card" data-mood="excited">
+                    <span class="emoji">🤩</span>
+                    <h3>Excited</h3>
+                </div>
+                <div class="mood-card" data-mood="angry">
+                    <span class="emoji">😠</span>
+                    <h3>Angry</h3>
+                </div>
+                <div class="mood-card" data-mood="relaxed">
+                    <span class="emoji">😌</span>
+                    <h3>Relaxed</h3>
+                </div>
+                <div class="mood-card" data-mood="surprised">
+                    <span class="emoji">😲</span>
+                    <h3>Surprised</h3>
+                </div>
+                <div class="mood-card" data-mood="loved">
+                    <span class="emoji">😍</span>
+                    <h3>Loved</h3>
+                </div>
+                <div class="mood-card" data-mood="sleepy">
+                    <span class="emoji">😴</span>
+                    <h3>Sleepy</h3>
+                </div>
+            </div>
+            <h2 id="selected-mood-text">No mood selected yet.</h2>
+            <button id="save-mood" class="btn">Save Mood</button>
+        </section>
+
+        <section class="history-section">
+            <h2>Past Mood History</h2>
+            <div id="mood-history">
+            </div>
+            <button id="clear-history" class="btn btn-danger">Clear History</button>
+        </section>
+
+        <section class="calendar-section">
+            <h2>Mood Calendar</h2>
+                <div id="mood-calendar">
+                    <div class="header">
+                        <button id="prev-btn">
+                            <i class="fa-solid fa-arrow-left"></i>
+                        </button>
+                        <div class="month-year"></div>
+                        <button id="next-btn">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                
+
+                    </div>
+                    <div class="days">
+                        <div class="day">Sun</div>
+                        <div class="day">Mon</div>
+                        <div class="day">Tue</div>
+                        <div class="day">Wed</div>
+                        <div class="day">Thu</div>
+                        <div class="day">Fri</div>
+                        <div class="day">Sat</div>
+                    </div>
+                <div class="dates" id="dates"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
