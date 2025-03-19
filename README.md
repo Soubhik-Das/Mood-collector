@@ -19,14 +19,7 @@ Responsiveness:
     ![image](https://github.com/user-attachments/assets/7ff6b465-1c41-4e1f-826e-375d9a8637de)
 
 Live Demo:
-     **[View the Live Project](https://candid-twilight-c37340.netlify.app)**
- Project Structure:
- 
- 📂 mood-tracker/
- ├── 📄 index.html 
- ├── 🎨 style.css
- ├── ⚡ script.js 
- ├── 📜 README.md  
+     **[View the Live Project](https://candid-twilight-c37340.netlify.app)** 
 
  Contributing:
    Feel free to submit issues or feature requests!
