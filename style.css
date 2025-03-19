@@ -360,7 +360,7 @@ h3 {
 }
 @media (max-width: 600px) {
     .mood-calendar {
-        max-width: 100%;
+        max-width: 90%;
         padding: 8px;
     }
 
